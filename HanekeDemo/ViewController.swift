@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Haneke
 
 let CellReuseIdentifier = "Cell"
 
@@ -36,6 +37,13 @@ class ViewController: UICollectionViewController {
         let URLString = self.items[indexPath.row]
         let URL = NSURL(string:URLString)!
         cell.imageView.hnk_setImageFromURL(URL)
+        
+        let cache = Shared.imageCache
+        
+        cache.calculateSizeWithCompletionBlock { (count, size) -> Void in
+            println("count:\(count) size:\(size)")
+        }
+        
         return cell
     }
     

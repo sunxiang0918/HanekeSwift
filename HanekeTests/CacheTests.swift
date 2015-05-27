@@ -116,6 +116,12 @@ class CacheTests: XCTestCase {
         // XCAssertThrows(sut.set(value: image, key: key, formatName : self.name))
     }
     
+    func testCalcutorSize(){
+        let sut = self.sut!
+        
+        
+    }
+    
     // MARK: fetch
     
     func testFetchOnSuccess_AfterSet_WithKey_ExpectSyncSuccess () {
@@ -572,7 +578,6 @@ class ImageCacheTests: XCTestCase {
         
         self.waitForExpectationsWithTimeout(1, handler: nil)
     }
-    
 }
 
 class FailFetcher<T : DataConvertible> : Fetcher<T> {

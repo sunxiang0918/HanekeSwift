@@ -73,6 +73,7 @@
 		A0EE773219BFDFA500B315A0 /* FetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EE773119BFDFA500B315A0 /* FetcherTests.swift */; };
 		A0EE773319BFDFF500B315A0 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03F7E8119BF94AA0002511F /* Fetcher.swift */; };
 		A0FDBF9219AD444500326016 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FDBF9119AD444500326016 /* Format.swift */; };
+		A46977021B15792700184E6B /* Cache+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46977011B15792700184E6B /* Cache+Extensions.swift */; };
 		D18894C919C340C5008E9E4C /* CGSize+HanekeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18894C819C340C5008E9E4C /* CGSize+HanekeTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -140,6 +141,7 @@
 		A0E8BFDB19CCAE1D00A4E2B0 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		A0EE773119BFDFA500B315A0 /* FetcherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetcherTests.swift; sourceTree = "<group>"; };
 		A0FDBF9119AD444500326016 /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		A46977011B15792700184E6B /* Cache+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cache+Extensions.swift"; sourceTree = "<group>"; };
 		D18894C819C340C5008E9E4C /* CGSize+HanekeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+HanekeTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -327,6 +329,7 @@
 				A06EE27F19B18C7800572D17 /* String+Haneke.swift */,
 				A0D7D6831997B2EC000CAF46 /* UIImage+Haneke.swift */,
 				A00D360319C36E680007586E /* NSHTTPURLResponse+Haneke.swift */,
+				A46977011B15792700184E6B /* Cache+Extensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 				A0C6BA3A19AC0D1E007111E9 /* NSFileManager+Haneke.swift in Sources */,
 				A00D360219C355C30007586E /* NetworkFetcher.swift in Sources */,
 				A03F7E7E19BF59880002511F /* Haneke.swift in Sources */,
+				A46977021B15792700184E6B /* Cache+Extensions.swift in Sources */,
 				A0E8BFDC19CCAE1D00A4E2B0 /* Data.swift in Sources */,
 				36BB64F519BECE1E006A1309 /* CGSize+Swift.swift in Sources */,
 				A03F7E8219BF94AA0002511F /* Fetcher.swift in Sources */,
