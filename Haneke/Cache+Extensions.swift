@@ -17,7 +17,7 @@ public extension Cache {
             var count = 0
             var size = 0
         
-            for (_, (_, memoryCache, diskCache)) in self.formats {
+            for (_, (_, _, diskCache)) in self.formats {
                 
                 //重新计算下大小
                 diskCache.calculateSize()

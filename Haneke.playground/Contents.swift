@@ -8,7 +8,7 @@ func example1() {
     let URL = NSURL(string: "https://api.github.com/users/haneke")!
     
     cache.fetch(URL: URL).onSuccess { JSON in
-        println(JSON.dictionary?["bio"])
+        print(JSON.dictionary?["bio"])
     }
 }
 
@@ -28,12 +28,12 @@ func example3() {
     cache.set(value: data, key: "secret")
     
     cache.calculateSizeWithCompletionBlock { (count, size) -> Void in
-        println("count:\(count) size:\(size)")
+        print("count:\(count) size:\(size)")
     }
     
     cache.fetch(key: "secret").onSuccess { data in
-        println("hello")
-        println(NSString(data:data, encoding:NSUTF8StringEncoding))
+        print("hello")
+        print(NSString(data:data, encoding:NSUTF8StringEncoding))
     }
 }
 

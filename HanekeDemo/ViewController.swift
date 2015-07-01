@@ -41,7 +41,7 @@ class ViewController: UICollectionViewController {
         let cache = Shared.imageCache
         
         cache.calculateSizeWithCompletionBlock { (count, size) -> Void in
-            println("count:\(count) size:\(size)")
+            print("count:\(count) size:\(size)")
         }
         
         return cell

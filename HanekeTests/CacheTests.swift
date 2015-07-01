@@ -241,7 +241,7 @@ class CacheTests: XCTestCase {
     func testFetch_AfterClearingMemoryCache_WithKeyAndFormatWithDiskCapacity_ExpectSuccess() {
         let key = self.name
         let data = NSData.dataWithLength(9)
-        var format = Format<NSData>(name: self.name)
+        let format = Format<NSData>(name: self.name)
         sut.addFormat(format)
         let expectation = self.expectationWithDescription(self.name)
         sut.set(value: data, key: key, formatName: format.name)
